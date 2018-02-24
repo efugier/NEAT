@@ -1,6 +1,6 @@
-"""A simple Multi Layer Perceptron
-Author: Emilien Fugier, Universite de Technologie de Compiegne
-"""
+# A simple Multi-Layer Perceptron Re-implentation
+# Copyright (C) 2011  Nicolas P. Rougier (base program)
+
 import numpy as np
 
 
