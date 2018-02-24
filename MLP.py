@@ -58,7 +58,7 @@ class MLP:
 
         deltas.reverse()
 
-        for i, _ in enumerate(self.weights):  # j unused, is it normal ???
+        for i, _ in enumerate(self.weights):
 
             layer = np.atleast_2d(self.layers[i])
             delta = np.atleast_2d(deltas[i])
